@@ -1,11 +1,21 @@
-import React from 'react';
+import React from "react";
 import './App.css';
+import Navigation from "./NavBar/index";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from './pages/index';
+import About from './pages/About';
 
 function App() {
   return (
-    <div>
-      <h1>Lucky Lepros</h1>
-      </div>
+    <Router>
+      <Navigation />
+      <Routes>
+
+        <Route path="/" exact component={Home} />
+        <Route path="/about" component={About} />
+
+        </Routes>
+    </Router>
   );
 }
 
