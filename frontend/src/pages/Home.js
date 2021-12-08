@@ -4,12 +4,6 @@ import { Box, Heading, Text, Image, Flex, Button } from "@chakra-ui/react";
 const Home = () => {
   return (
     <div
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        height: "100vh",
-      }}
     >
       <Box>
         <Heading>
@@ -74,7 +68,7 @@ const Home = () => {
         </Box>
 
         <Box>
-          
+
         </Box>
       </Flex>
     </div>
