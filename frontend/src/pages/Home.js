@@ -3,8 +3,7 @@ import { Box, Heading, Text, Image, Flex, Button } from "@chakra-ui/react";
 
 const Home = () => {
   return (
-    <div
-    >
+    <div>
       <Box>
         <Heading>
           A Lepro is like a four leaf clover, hard to find and lucky to have
@@ -66,11 +65,134 @@ const Home = () => {
             traditionally known to be members of the fairy family.
           </Text>
         </Box>
+      </Flex>
 
+      <Flex>
         <Box>
+          <Heading>Where do these little folk live?</Heading>
+          <Text></Text>
+        </Box>
+        <Image />
+      </Flex>
 
+      <Flex>
+        <Image />
+        <Box>
+          <Heading>Pot of gold</Heading>
+          <Text></Text>
         </Box>
       </Flex>
+
+      <Flex>
+        <Box>
+          <Heading>Lucky Token</Heading>
+          <Text></Text>
+        </Box>
+        <Image />
+      </Flex>
+
+      <Flex>
+        <Image />
+        <Box>
+          <Heading>Tiny tricksters!</Heading>
+          <Text></Text>
+        </Box>
+      </Flex>
+
+      <Box>
+        <Heading>Lepro Traits</Heading>
+        <Text></Text>
+      </Box>
+
+      <Flex>
+        <Box>
+          <Heading>Lucky Token</Heading>
+          <Text></Text>
+        </Box>
+        <Image />
+      </Flex>
+
+      <Box>
+        <Flex>
+          <Image />
+          <Text>
+            The LuckyLepro roadmap will be rewarding, fun and collaborative.
+            Lepro holders will be rewarded with treasures as we activate various
+            stages of the roadmap. With imaginative ideas, adequate resources,
+            and coordination, we believe we can create a collaborative
+            LuckyLepros community. ·0% We launch a wallet connection portal on
+            our website to allow people into our platform initiating the minting
+            process and the beginning of the LuckyLepros community. -20% sold:
+            We give away 5 rare Lepros (top 8% rarity) to random holders as a
+            token of gratitude for their support. -40% sold: We fund our Lepro
+            community ?Rainbow Gold Pot Project" with 5 ETH. More information
+            relating to the rainbow gold pot below. -60% sold: We give away 5
+            legendary Lepros (top 2% rarity) to random holders as a token of
+            gratitude for their continued support. -80% sold: We launch
+            LuckyLepros?Rainbow Gold Pot Project"on our discord. Our first goal
+            is to have an exclusive chat where Lepros can vote and speak upon
+            upcoming ideas to grow the community. -100% sold: We fund the Lepro
+            community ?Rainbow Gold Pot Project"with a total of 20 ETH. We
+            donate 5 ETH to charity organisations, the community can decide
+            which one it will be.
+          </Text>
+        </Flex>
+      </Box>
+
+      <Flex>
+        <Box>
+          <Heading>Community Rainbox Gold Pot</Heading>
+          <Text>
+            If you're lucky enough to own a Lepro, you?re owning a rare piece of
+            art and gaining membership access to a collaborative community where
+            your voice impacts the future direction of the community. We want to
+            continue to tell the many tales of leprechauns throughout history,
+            their current travels onto the blockchain and their future
+            adventures. To do this, we want to collaborate with Lepro holders
+            and develop the LuckyLepros story further. Funds from the Community
+            Rainbow Gold Pot Project will serve as the initial start-up capital
+            required to kick start these projects and begin the new era of
+            Lepros.
+          </Text>
+        </Box>
+        <Image />
+      </Flex>
+
+      <Flex>
+        <Box>
+          <Heading>Community Tools</Heading>
+          <Text>
+            Here are some helpful tools inspired by other communities. Please
+            note that these are unofficial in nature. Every assignment of an
+            Lepros overall value or rarity is inherently subjective
+          </Text>
+        </Box>
+        <Image />
+      </Flex>
+
+      <Box>
+        <Flex>
+          <Box>
+            <Image/>
+            <Text></Text>
+          </Box>
+
+          <Box>
+            <Image/>
+            <Text></Text>
+          </Box>
+
+          <Box>
+            <Text>
+
+            </Text>
+            <Button></Button>
+          </Box>
+        </Flex>
+      </Box>
+
+      
+
     </div>
   );
 };
