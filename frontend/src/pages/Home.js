@@ -1,20 +1,22 @@
 import React from "react";
 import { Box, Heading, Text, Image, Flex, Button } from "@chakra-ui/react";
+import Banner from '../images/Banner.jpg';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
-    <div>
+    <>
       <Box>
         <Heading>
           A Lepro is like a four leaf clover, hard to find and lucky to have
           one.
         </Heading>
-        <Image src="https://bit.ly/dan-abramov" alt="Dan Abramov" />
+        <Image src={Banner} alt="Dan Abramov" maxW="100%" />
       </Box>
 
-      <Box bg="tomato" w="100%" p={4} color="white">
+      <Box>
         <Heading>Welcome to the LuckyLepro Club</Heading>
-        <Flex>
+        <Flex >
           <Text>
             LuckyLepros are an Irish legend and folklore themed civilisation of
             10,000 unique, mystical, and non-fungible Irish leprechauns. Lepros
@@ -33,7 +35,7 @@ const Home = () => {
         </Flex>
       </Box>
 
-      <Box>
+      <Box maxW="70%">
         <Heading>Buy a Lepro - it's fair distribution</Heading>
         <Flex>
           <Text>
@@ -42,7 +44,7 @@ const Home = () => {
             Want to join a growing Lepro community? Mint one today and claim
             ownership
           </Text>
-          <Button>But a Lepro</Button>
+          <Link to="/buy"><Button>Buy a Lepro</Button></Link>
         </Flex>
       </Box>
 
@@ -193,7 +195,7 @@ const Home = () => {
 
       
 
-    </div>
+    </>
   );
 };
 
