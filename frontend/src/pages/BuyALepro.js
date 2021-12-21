@@ -8,13 +8,12 @@ import {
   Button,
   List,
   ListItem,
-  Container
 } from "@chakra-ui/react";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 const BuyALepro = () => {
   return (
-    <Container maxW="80%" display="flex" flexDirection="column" margin="0 auto" justifySelf="center" alignSelf="center" >
+    <>
       <Box>
         <Heading>Buy a Lepro - minting engine!</Heading>
         <Text>
@@ -39,9 +38,11 @@ const BuyALepro = () => {
           Having trouble minting? Head over to our FAQ page where we answer some
           of your most common questions and more.{" "}
         </Text>
-        <Button><Link to="/faq">FAQ</Link></Button>
+        <Button>
+          <Link to="/faq">FAQ</Link>
+        </Button>
       </Box>
-    </Container>
+    </>
   );
 };
 
