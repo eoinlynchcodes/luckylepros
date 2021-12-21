@@ -3,8 +3,6 @@ import {
   Box,
   Heading,
   Text,
-  Image,
-  Flex,
   Button,
   List,
   ListItem,

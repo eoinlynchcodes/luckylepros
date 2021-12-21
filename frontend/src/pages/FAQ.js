@@ -6,14 +6,10 @@ import {
   AccordionPanel,
   AccordionIcon,
   Box,
-  List,
   ListItem,
-  ListIcon,
   OrderedList,
-  UnorderedList,
   Container
 } from "@chakra-ui/react";
-import { AddIcon, MinusIcon } from "@chakra-ui/icons";
 
 const FAQ = () => {
   return (
