@@ -14,7 +14,6 @@ import Banner from "../images/Banner.jpg";
 import { Link } from "react-router-dom";
 import Road from "../images/Road.jpg";
 import Leprechaunhorseshoe from "../images/Leprechaunhorseshoe.jpg";
-import MdCheckCircle from "@chakra-ui/icons";
 
 const Home = () => {
   return (
