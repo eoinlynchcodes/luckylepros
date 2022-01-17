@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Home from "./pages/Home";
+import ComingSoon from "./pages/ComingSoon";
 import BuyALepro from "./pages/BuyALepro";
 import FAQ from "./pages/FAQ";
 import Team from './pages/Team';
@@ -14,7 +15,7 @@ function App() {
       <Navbar />
       <Container maxW='container.xl' >
         <Routes>
-          <Route path="/" exact element={<Home />} />
+          <Route path="/" exact element={<ComingSoon />} />
           <Route path="/buy" element={<BuyALepro />} />
           <Route path="/faq" element={<FAQ />} />
           <Route path="/team" element={<Team/>} />
